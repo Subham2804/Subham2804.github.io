@@ -12,6 +12,14 @@ const Projects = () => {
       image: '/mars-banner.png'
     },
     {
+      title: 'Amber Finance',
+      description: 'A credit protocol enabling borrowing and lending Bitcoin Related Tokens (BRTs) on Neutron. Deposit BRTs to earn yield, swap between tokens, deploy leverage strategies with up to 10x leverage, and track your positions performance with real-time analytics.',
+      technologies: ['Rust', 'CosmWasm', 'Smart Contracts', 'DeFi', 'Neutron'],
+      link: 'https://app.amberfi.io/',
+      contributionsLink: 'https://github.com/Amber-Finance/core-contracts/blob/b508ec06e5b90ed5200fecf4be06a95574c0f1c4/Cargo.toml#L51',
+      image: '/amber-finance.png'
+    },
+    {
       title: 'AISkin Decode',
       description: 'A backend system for AI-powered skincare analysis and recommendations. Built the entire backend infrastructure independently, handling data processing, API endpoints, and integration with AI services.',
       technologies: ['Backend', 'API Development', 'Data Processing', 'AI Integration'],
